@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            Log.v("MainActivity",String.valueOf(item.getItemId()));
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     ft = getSupportFragmentManager().beginTransaction();
