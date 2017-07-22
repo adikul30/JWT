@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="atry.atry.jwt.Forgot">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/newPasswordET"
+            android:hint="New Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#2196F3"
+        android:elevation="5dp"
+        android:text="Reset"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        tools:text="Bearer dlfjgbnsdpjgbsldkfjgbfslkbflkfrglksndfglkjsnbksmbnfvlkmbnvlkb" />
+
+</LinearLayout>

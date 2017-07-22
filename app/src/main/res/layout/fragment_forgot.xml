@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="atry.atry.jwt.Forgot">
+
+    <Button
+        android:id="@+id/forgotButton"
+        android:elevation="5dp"
+        android:textColor="@android:color/white"
+        android:background="#2196F3"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:text="GST-"
+            android:visibility="gone"
+            android:id="@+id/resetKey"
+            android:hint="Key"
+            android:inputType="textCapCharacters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/submitBtn"
+        android:elevation="5dp"
+        android:textColor="@android:color/white"
+        android:background="#2196F3"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:id="@+id/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        tools:text="Bearer dlfjgbnsdpjgbsldkfjgbfslkbflkfrglksndfglkjsnbksmbnfvlkmbnvlkb" />
+
+</LinearLayout>
