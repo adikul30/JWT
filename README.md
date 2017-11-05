@@ -1,2 +1,2 @@
 # JWT
-An Android App implementing Jwt Token Authorization
+An Android App implementing JWT Token Authorization
